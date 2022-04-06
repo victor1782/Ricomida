@@ -1,0 +1,132 @@
+
+body{
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+/* Navbar */
+
+.navbar-brand{
+    font-family: 'Lobster', sans-serif;
+    color: #ffffff;
+    font-size: 38px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #a0a0a0;
+}
+
+
+/* Header */
+
+.description button{
+    font-size: 14px;
+}
+
+.description h1{
+    margin-bottom: 30px;
+}
+
+/* Carrusel */
+
+.carousel-indicators{
+    margin-bottom: -50px;
+    height: 35px;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-top: none;
+    border-bottom: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+
+
+/* Section description */
+
+#section-cook> .border-bottom{
+    width: 80%;
+}
+
+section .description {
+    color: #373A3C;
+}
+
+
+.description .border-bottom{
+    width: 140px;
+}
+
+/* Secction Newsletter */
+
+.newsletter{
+    background-color: #DC3545;
+    color: #ffffff;
+}
+
+.texto-mixto h2{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.texto-mixto p span{
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+
+}
+
+.texto-mixto button{
+    color: #ffffff;
+}
+
+.texto-mixto button:hover{
+    color: #d8d7d7;
+}
+
+/* Footer */
+footer{
+    background-color: #373A3C;
+}
+
+
+footer a{
+    font-family: 'Lobster', sans-serif;
+    font-size: 38px;
+    color: #ffffff;
+    background-color: #373A3C;
+    text-decoration: none;
+}
+
+
+
+
+/* Consulta de medios */
+
+@media (max-width: 768px){
+    #carrusel{
+        display: none;
+    }
+
+}
+
+
+
+/* Consulta de medios animación menu */
+
+@media (prefers-reduced-motion: reduce) {
+    .collapsing {
+        transition-property: height, visibility;
+        transition-duration: .45s;
+    }
+}
